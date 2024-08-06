@@ -11,6 +11,7 @@ namespace Expense_Tracker.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Expense> Expenses { get; set; }
 
     }
 }

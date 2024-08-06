@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|c:\\users\\krish\\onedrive\\documents\\development\\projects\\expense tracker\\expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|c:\\users\\krish\\onedrive\\documents\\development\\projects\\expense tracker\\expense tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -15,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|c:\\users\\krish\\onedrive\\documents\\development\\projects\\expense tracker\\expense tracker\\models\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:models\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|c:\\users\\krish\\onedrive\\documents\\development\\projects\\expense tracker\\expense tracker\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|c:\\users\\krish\\onedrive\\documents\\development\\projects\\expense tracker\\expense tracker\\migrations\\20240806173043_new migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E338A116-6A53-4689-B9A5-D12E4DE630C1}|Expense Tracker.csproj|solutionrelative:migrations\\20240806173043_new migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "20240806173043_New Migration.cs",
+              "DocumentMoniker": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Migrations\\20240806173043_New Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240806173043_New Migration.cs",
+              "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Migrations\\20240806173043_New Migration.cs",
+              "RelativeToolTip": "Migrations\\20240806173043_New Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:30:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Models\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Expense.cs",
+              "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Models\\Entities\\Expense.cs",
+              "RelativeToolTip": "Models\\Entities\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:01:47.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-30T18:04:51.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T17:55:52.834Z",
               "EditorCaption": ""
@@ -62,23 +90,9 @@
               "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Models\\Entities\\User.cs",
               "RelativeToolTip": "Models\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T17:50:50.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T16:40:39.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T17:50:50.159Z"
             }
           ]
         }
