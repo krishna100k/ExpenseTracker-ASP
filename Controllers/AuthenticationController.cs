@@ -12,12 +12,12 @@ namespace Expense_Tracker.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        private readonly JwtTokenService _jwt;
+        private readonly IConfiguration _configuration;
 
-        public AuthenticationController(ApplicationDbContext context, JwtTokenService jwt)
+        public AuthenticationController(ApplicationDbContext context, IConfiguration configuration)
         {
             _context = context;
-            _jwt = jwt;
+            _configuration = configuration;
         }
 
         [HttpPost("Register")]
@@ -65,7 +65,8 @@ namespace Expense_Tracker.Controllers
                 {
                     return BadRequest(new {Message = "Invalid password."});
                 }
-                string token = _jwt.GenerateToken(user.Name);
+                JwtTokenService jwt = new JwtTokenService(_configuration);
+                string token = jwt.GenerateToken(user.Name);
                 return Ok(new { Message = "User logged in successfully!!!", Token = token});
             }
             catch (Exception ex)

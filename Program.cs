@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Authentication
-builder.Services.AddScoped<IJwtTokenService, JwtTokenService>(); //for injecting the jwt service
+//builder.Services.AddScoped<IJwtTokenService, JwtTokenService>(); //for injecting the jwt service
 var secretKey = builder.Configuration["Jwt:Key"];
 
 

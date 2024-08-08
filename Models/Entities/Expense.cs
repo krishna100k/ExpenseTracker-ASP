@@ -7,12 +7,12 @@ namespace Expense_Tracker.Models.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid ExpenseId { get; set; } = Guid.NewGuid();
+        public Guid ExpenseId { get; set; } 
         public required string ExpenseName { get; set; }
         public required decimal ExpenseAmount { get; set; }
 
         [ForeignKey("User")]
-        public string? UserId;
+        public Guid? UserId;
         public User? User { get; set; }
     }
 }
