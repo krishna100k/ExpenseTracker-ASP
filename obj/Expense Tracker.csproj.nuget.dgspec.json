@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {}
+    "D:\\Personal\\Timepass\\ExpenseTracker-ASP\\Expense Tracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {
+    "D:\\Personal\\Timepass\\ExpenseTracker-ASP\\Expense Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
+        "projectUniqueName": "D:\\Personal\\Timepass\\ExpenseTracker-ASP\\Expense Tracker.csproj",
         "projectName": "Expense Tracker",
-        "projectPath": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
-        "packagesPath": "C:\\Users\\krish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krish\\OneDrive\\Documents\\Development\\Projects\\Expense Tracker\\Expense Tracker\\obj\\",
+        "projectPath": "D:\\Personal\\Timepass\\ExpenseTracker-ASP\\Expense Tracker.csproj",
+        "packagesPath": "C:\\Users\\SEZ6436\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\Timepass\\ExpenseTracker-ASP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\krish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SEZ6436\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,17 +39,20 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -84,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
