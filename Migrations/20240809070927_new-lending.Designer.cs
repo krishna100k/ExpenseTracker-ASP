@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Expense_Tracker.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240808125629_added guid")]
-    partial class addedguid
+    [Migration("20240809070927_new-lending")]
+    partial class newlending
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,6 +48,30 @@ namespace Expense_Tracker.Migrations
                     b.ToTable("Expenses");
                 });
 
+            modelBuilder.Entity("Expense_Tracker.Models.Entities.Lending", b =>
+                {
+                    b.Property<Guid>("LendingId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("LendersName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LentAmount")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("LendingId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Lendings");
+                });
+
             modelBuilder.Entity("Expense_Tracker.Models.Entities.User", b =>
                 {
                     b.Property<Guid>("UserId")
@@ -76,6 +100,17 @@ namespace Expense_Tracker.Migrations
                     b.HasOne("Expense_Tracker.Models.Entities.User", "User")
                         .WithMany("Expenses")
                         .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Expense_Tracker.Models.Entities.Lending", b =>
+                {
+                    b.HasOne("Expense_Tracker.Models.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("User");
                 });
